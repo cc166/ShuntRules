@@ -15,6 +15,7 @@
 | [归类索引（扩展版）](docs/CATEGORIES.md) | 按场景直接点规则链接 |
 | [常见组合推荐](docs/COMBOS.md) | 不想纠结时直接照着选 |
 | [文档目录](docs/INDEX.md) | 看全部补充文档 |
+| [自定义合集入口](docs/CUSTOM-COLLECTIONS.md) | 看 AI / 通讯合集规则链接 |
 | [AI 平台映射表](docs/AI-MAPPING.md) | 看平台名与规则对应关系 |
 | [AI 平台补充说明](docs/AI-PLATFORMS.md) | 看哪些平台有单独规则 |
 | [上游 README](https://github.com/luestr/ShuntRules/blob/main/README.md) | 查看完整原始目录 |
