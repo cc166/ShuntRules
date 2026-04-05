@@ -41,3 +41,7 @@
 
 ## 提示
 先看 `docs/CATEGORIES.md` 的带链接索引，再决定具体接入哪些规则。
+
+
+## 补充阅读
+- [AI 平台补充说明](AI-PLATFORMS.md)
