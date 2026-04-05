@@ -13,9 +13,16 @@
 |---|---|
 | [快速开始](docs/QUICK-START.md) | 先看怎么接入 Loon / Clash |
 | [归类索引](docs/CATEGORIES.md) | 按用途快速找规则 |
+| [常见组合](docs/COMBOS.md) | 直接参考推荐搭配 |
 | [文档目录](docs/INDEX.md) | 查看 docs 总入口 |
 | [Fork 说明](docs/FORK-NOTES.md) | 本 fork 做了什么 |
 | [上游仓库](https://github.com/luestr/ShuntRules) | 查看原始规则与更新 |
+
+## 中文简明说明
+
+- 这是一个基于上游 `luestr/ShuntRules` 的 fork。
+- 本 fork 主要做导航增强、归类整理、组合建议与同步说明。
+- 原始规则内容与更新以上游仓库为准。
 
 ## 常用场景
 
