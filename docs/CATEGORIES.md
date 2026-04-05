@@ -1,69 +1,108 @@
-# 归类索引（带链接）
+# 归类索引（扩展版）
 
-本页的意义：**把常见规则按用途归类，并直接给出可点击的上游规则链接**，减少你在超长 README 里来回搜索的成本。
+这个页面的作用很直接：**把常用规则按场景分组，并给出可点击的 Loon / Clash 链接**。
+
+- 适合不想在上游超长 README 里反复搜索的人
+- 适合先按场景找，再决定具体接入哪些规则
+- 完整规则与最新变更以上游 README 为准
 
 ## 国内直连 / 基础网络
 
 | 规则 | Loon | Clash |
 |---|---|---|
-| China | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/China.lsr) | [Clash](https://rule.kelee.one/Clash/China.yaml) |
-| ChinaASN | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaASN.lsr) | [Clash](https://rule.kelee.one/Clash/ChinaASN.yaml) |
-| ChinaMedia | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaMedia.lsr) | [Clash](https://rule.kelee.one/Clash/ChinaMedia.yaml) |
+| China | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/China.lsr) | [链接](https://rule.kelee.one/Clash/China.yaml) |
+| ChinaASN | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaASN.lsr) | [链接](https://rule.kelee.one/Clash/ChinaASN.yaml) |
+| ChinaDNS | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaDNS.lsr) | [链接](https://rule.kelee.one/Clash/ChinaDNS.yaml) |
+| ChinaIPs | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaIPs.lsr) | [链接](https://rule.kelee.one/Clash/ChinaIPs.yaml) |
+| ChinaIPsBGP | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaIPsBGP.lsr) | [链接](https://rule.kelee.one/Clash/ChinaIPsBGP.yaml) |
+| ChinaMax | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaMax.lsr) | [链接](https://rule.kelee.one/Clash/ChinaMax.yaml) |
+| ChinaMaxNoIP | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaMaxNoIP.lsr) | [链接](https://rule.kelee.one/Clash/ChinaMaxNoIP.yaml) |
+| ChinaMedia | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaMedia.lsr) | [链接](https://rule.kelee.one/Clash/ChinaMedia.yaml) |
+| ChinaNews | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaNews.lsr) | [链接](https://rule.kelee.one/Clash/ChinaNews.yaml) |
+| ChinaNoMedia | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaNoMedia.lsr) | [链接](https://rule.kelee.one/Clash/ChinaNoMedia.yaml) |
+| Cloudflare | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Cloudflare.lsr) | [链接](https://rule.kelee.one/Clash/Cloudflare.yaml) |
 
-## 平台 / 云服务 / 开发
+## 苹果 / 谷歌 / 微软 / 云服务
 
 | 规则 | Loon | Clash |
 |---|---|---|
-| GitHub | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/GitHub.lsr) | [Clash](https://rule.kelee.one/Clash/GitHub.yaml) |
-| Cloudflare | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Cloudflare.lsr) | [Clash](https://rule.kelee.one/Clash/Cloudflare.yaml) |
-| Docker | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Docker.lsr) | [Clash](https://rule.kelee.one/Clash/Docker.yaml) |
-| Claude | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Claude.lsr) | [Clash](https://rule.kelee.one/Clash/Claude.yaml) |
-| OpenAI | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/OpenAI.lsr) | [Clash](https://rule.kelee.one/Clash/OpenAI.yaml) |
-| Apple | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Apple.lsr) | [Clash](https://rule.kelee.one/Clash/Apple.yaml) |
-| Google | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Google.lsr) | [Clash](https://rule.kelee.one/Clash/Google.yaml) |
-| Microsoft | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Microsoft.lsr) | [Clash](https://rule.kelee.one/Clash/Microsoft.yaml) |
+| Apple | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Apple.lsr) | [链接](https://rule.kelee.one/Clash/Apple.yaml) |
+| Google | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Google.lsr) | [链接](https://rule.kelee.one/Clash/Google.yaml) |
+| Microsoft | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Microsoft.lsr) | [链接](https://rule.kelee.one/Clash/Microsoft.yaml) |
+| Cloudflare | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Cloudflare.lsr) | [链接](https://rule.kelee.one/Clash/Cloudflare.yaml) |
+| Dropbox | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Dropbox.lsr) | [链接](https://rule.kelee.one/Clash/Dropbox.yaml) |
+| OneDrive | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/OneDrive.lsr) | [链接](https://rule.kelee.one/Clash/OneDrive.yaml) |
+| iCloud | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/iCloud.lsr) | [链接](https://rule.kelee.one/Clash/iCloud.yaml) |
+
+## 开发 / AI / 协作
+
+| 规则 | Loon | Clash |
+|---|---|---|
+| GitHub | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/GitHub.lsr) | [链接](https://rule.kelee.one/Clash/GitHub.yaml) |
+| Docker | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Docker.lsr) | [链接](https://rule.kelee.one/Clash/Docker.yaml) |
+| Claude | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Claude.lsr) | [链接](https://rule.kelee.one/Clash/Claude.yaml) |
+| OpenAI | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/OpenAI.lsr) | [链接](https://rule.kelee.one/Clash/OpenAI.yaml) |
+| Notion | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Notion.lsr) | [链接](https://rule.kelee.one/Clash/Notion.yaml) |
 
 ## 社交 / 通讯 / 社区
 
 | 规则 | Loon | Clash |
 |---|---|---|
-| Telegram | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Telegram.lsr) | [Clash](https://rule.kelee.one/Clash/Telegram.yaml) |
-| Discord | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Discord.lsr) | [Clash](https://rule.kelee.one/Clash/Discord.yaml) |
-| Reddit | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Reddit.lsr) | [Clash](https://rule.kelee.one/Clash/Reddit.yaml) |
-| Twitter | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Twitter.lsr) | [Clash](https://rule.kelee.one/Clash/Twitter.yaml) |
-| Facebook | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Facebook.lsr) | [Clash](https://rule.kelee.one/Clash/Facebook.yaml) |
-| Instagram | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Instagram.lsr) | [Clash](https://rule.kelee.one/Clash/Instagram.yaml) |
+| Telegram | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Telegram.lsr) | [链接](https://rule.kelee.one/Clash/Telegram.yaml) |
+| Discord | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Discord.lsr) | [链接](https://rule.kelee.one/Clash/Discord.yaml) |
+| Twitter | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Twitter.lsr) | [链接](https://rule.kelee.one/Clash/Twitter.yaml) |
+| Reddit | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Reddit.lsr) | [链接](https://rule.kelee.one/Clash/Reddit.yaml) |
+| Facebook | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Facebook.lsr) | [链接](https://rule.kelee.one/Clash/Facebook.yaml) |
+| Instagram | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Instagram.lsr) | [链接](https://rule.kelee.one/Clash/Instagram.yaml) |
+| Line | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Line.lsr) | [链接](https://rule.kelee.one/Clash/Line.yaml) |
+| WeChat | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/WeChat.lsr) | [链接](https://rule.kelee.one/Clash/WeChat.yaml) |
 
 ## 流媒体 / 视频 / 音乐
 
 | 规则 | Loon | Clash |
 |---|---|---|
-| YouTube | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/YouTube.lsr) | [Clash](https://rule.kelee.one/Clash/YouTube.yaml) |
-| Netflix | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Netflix.lsr) | [Clash](https://rule.kelee.one/Clash/Netflix.yaml) |
-| Spotify | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Spotify.lsr) | [Clash](https://rule.kelee.one/Clash/Spotify.yaml) |
-| TikTok | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/TikTok.lsr) | [Clash](https://rule.kelee.one/Clash/TikTok.yaml) |
+| YouTube | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/YouTube.lsr) | [链接](https://rule.kelee.one/Clash/YouTube.yaml) |
+| Netflix | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Netflix.lsr) | [链接](https://rule.kelee.one/Clash/Netflix.yaml) |
+| Disney | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Disney.lsr) | [链接](https://rule.kelee.one/Clash/Disney.yaml) |
+| Spotify | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Spotify.lsr) | [链接](https://rule.kelee.one/Clash/Spotify.yaml) |
+| TikTok | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/TikTok.lsr) | [链接](https://rule.kelee.one/Clash/TikTok.yaml) |
+| BiliBili | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/BiliBili.lsr) | [链接](https://rule.kelee.one/Clash/BiliBili.yaml) |
+| Abema | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Abema.lsr) | [链接](https://rule.kelee.one/Clash/Abema.yaml) |
+| Hulu | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Hulu.lsr) | [链接](https://rule.kelee.one/Clash/Hulu.yaml) |
 
 ## 新闻 / 阅读 / 信息
 
 | 规则 | Loon | Clash |
 |---|---|---|
-| Wikipedia | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Wikipedia.lsr) | [Clash](https://rule.kelee.one/Clash/Wikipedia.yaml) |
-
-## 学习 / 工具 / 生产力
-
-| 规则 | Loon | Clash |
-|---|---|---|
-| Notion | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Notion.lsr) | [Clash](https://rule.kelee.one/Clash/Notion.yaml) |
-| Dropbox | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Dropbox.lsr) | [Clash](https://rule.kelee.one/Clash/Dropbox.yaml) |
-| OneDrive | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/OneDrive.lsr) | [Clash](https://rule.kelee.one/Clash/OneDrive.yaml) |
+| BBC | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/BBC.lsr) | [链接](https://rule.kelee.one/Clash/BBC.yaml) |
+| CNN | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/CNN.lsr) | [链接](https://rule.kelee.one/Clash/CNN.yaml) |
+| Wikipedia | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Wikipedia.lsr) | [链接](https://rule.kelee.one/Clash/Wikipedia.yaml) |
+| NYTimes | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/NYTimes.lsr) | [链接](https://rule.kelee.one/Clash/NYTimes.yaml) |
+| AFP | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/AFP.lsr) | [链接](https://rule.kelee.one/Clash/AFP.yaml) |
+| Bloomberg | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Bloomberg.lsr) | [链接](https://rule.kelee.one/Clash/Bloomberg.yaml) |
 
 ## 购物 / 出行 / 生活服务
 
 | 规则 | Loon | Clash |
 |---|---|---|
-| Amazon | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Amazon.lsr) | [Clash](https://rule.kelee.one/Clash/Amazon.yaml) |
-| AliExpress | - | - |
+| Amazon | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Amazon.lsr) | [链接](https://rule.kelee.one/Clash/Amazon.yaml) |
+| 12306 | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/12306.lsr) | [链接](https://rule.kelee.one/Clash/12306.yaml) |
+| CaiNiao | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/CaiNiao.lsr) | [链接](https://rule.kelee.one/Clash/CaiNiao.yaml) |
+| 58TongCheng | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/58TongCheng.lsr) | [链接](https://rule.kelee.one/Clash/58TongCheng.yaml) |
+| Accuweather | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Accuweather.lsr) | [链接](https://rule.kelee.one/Clash/Accuweather.yaml) |
 
-## 说明
-- 本页不是替代上游 README，而是做“常用规则的快捷索引”。
-- 完整规则目录与最新更新以上游 README 为准。
+## 学习 / 工具 / 实用服务
+
+| 规则 | Loon | Clash |
+|---|---|---|
+| Dropbox | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Dropbox.lsr) | [链接](https://rule.kelee.one/Clash/Dropbox.yaml) |
+| OneDrive | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/OneDrive.lsr) | [链接](https://rule.kelee.one/Clash/OneDrive.yaml) |
+| Notion | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Notion.lsr) | [链接](https://rule.kelee.one/Clash/Notion.yaml) |
+| Wikipedia | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Wikipedia.lsr) | [链接](https://rule.kelee.one/Clash/Wikipedia.yaml) |
+| GoogleDrive | [链接](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/GoogleDrive.lsr) | [链接](https://rule.kelee.one/Clash/GoogleDrive.yaml) |
+
+## 使用方式
+
+1. 先在本页按场景找到规则
+2. 点击对应的 Loon 或 Clash 链接
+3. 少量开始，确认稳定后再逐步增加
