@@ -1,98 +1,69 @@
-# 归类索引（增强版）
+# 归类索引（带链接）
 
-本页是 fork 补充文档，用于**更快定位规则类别**。完整规则名、链接与最新内容以上游 README 为准。
+本页的意义：**把常见规则按用途归类，并直接给出可点击的上游规则链接**，减少你在超长 README 里来回搜索的成本。
 
-## A. 国内直连 / 基础网络
-适合先加入的基础类规则：
-- China
-- ChinaASN
-- ChinaDNS
-- ChinaIPs
-- ChinaMax
-- ChinaMedia
-- ChinaNoMedia
+## 国内直连 / 基础网络
 
-## B. 平台 / 云服务 / 开发
-常见开发与基础服务：
-- GitHub
-- Cloudflare
-- Docker
-- JetBrains
-- Microsoft
-- Google
-- Apple
-- Claude
-- OpenAI
+| 规则 | Loon | Clash |
+|---|---|---|
+| China | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/China.lsr) | [Clash](https://rule.kelee.one/Clash/China.yaml) |
+| ChinaASN | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaASN.lsr) | [Clash](https://rule.kelee.one/Clash/ChinaASN.yaml) |
+| ChinaMedia | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/ChinaMedia.lsr) | [Clash](https://rule.kelee.one/Clash/ChinaMedia.yaml) |
 
-## C. 社交 / 通讯 / 社区
-常见社交与聊天服务：
-- Telegram
-- Discord
-- Reddit
-- X(Twitter)
-- Facebook
-- Instagram
+## 平台 / 云服务 / 开发
 
-## D. 流媒体 / 视频 / 音乐
-常见影音规则：
-- YouTube
-- Netflix
-- Disney
-- Spotify
-- TikTok
-- BiliBili
+| 规则 | Loon | Clash |
+|---|---|---|
+| GitHub | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/GitHub.lsr) | [Clash](https://rule.kelee.one/Clash/GitHub.yaml) |
+| Cloudflare | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Cloudflare.lsr) | [Clash](https://rule.kelee.one/Clash/Cloudflare.yaml) |
+| Docker | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Docker.lsr) | [Clash](https://rule.kelee.one/Clash/Docker.yaml) |
+| Claude | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Claude.lsr) | [Clash](https://rule.kelee.one/Clash/Claude.yaml) |
+| OpenAI | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/OpenAI.lsr) | [Clash](https://rule.kelee.one/Clash/OpenAI.yaml) |
+| Apple | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Apple.lsr) | [Clash](https://rule.kelee.one/Clash/Apple.yaml) |
+| Google | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Google.lsr) | [Clash](https://rule.kelee.one/Clash/Google.yaml) |
+| Microsoft | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Microsoft.lsr) | [Clash](https://rule.kelee.one/Clash/Microsoft.yaml) |
 
-## E. 新闻 / 阅读 / 信息
-适合资讯与阅读场景：
-- BBC
-- CNN
-- NYTimes
-- Wikipedia
-- Reuters
+## 社交 / 通讯 / 社区
 
-## F. 购物 / 出行 / 生活服务
-常见生活服务：
-- Amazon
-- AliExpress
-- 12306
-- Cainiao
-- 58TongCheng
+| 规则 | Loon | Clash |
+|---|---|---|
+| Telegram | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Telegram.lsr) | [Clash](https://rule.kelee.one/Clash/Telegram.yaml) |
+| Discord | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Discord.lsr) | [Clash](https://rule.kelee.one/Clash/Discord.yaml) |
+| Reddit | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Reddit.lsr) | [Clash](https://rule.kelee.one/Clash/Reddit.yaml) |
+| Twitter | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Twitter.lsr) | [Clash](https://rule.kelee.one/Clash/Twitter.yaml) |
+| Facebook | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Facebook.lsr) | [Clash](https://rule.kelee.one/Clash/Facebook.yaml) |
+| Instagram | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Instagram.lsr) | [Clash](https://rule.kelee.one/Clash/Instagram.yaml) |
 
-## G. 学习 / 工具 / 生产力
-常见学习与工具：
-- Notion
-- Dropbox
-- OneDrive
-- Evernote
+## 流媒体 / 视频 / 音乐
 
-## 推荐组合
-### 1. 最小常用组合
-- China
-- ChinaASN
-- ChinaMedia
-- GitHub
-- Cloudflare
+| 规则 | Loon | Clash |
+|---|---|---|
+| YouTube | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/YouTube.lsr) | [Clash](https://rule.kelee.one/Clash/YouTube.yaml) |
+| Netflix | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Netflix.lsr) | [Clash](https://rule.kelee.one/Clash/Netflix.yaml) |
+| Spotify | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Spotify.lsr) | [Clash](https://rule.kelee.one/Clash/Spotify.yaml) |
+| TikTok | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/TikTok.lsr) | [Clash](https://rule.kelee.one/Clash/TikTok.yaml) |
 
-### 2. 开发常用组合
-- GitHub
-- Cloudflare
-- Docker
-- Claude
-- OpenAI
+## 新闻 / 阅读 / 信息
 
-### 3. 媒体常用组合
-- YouTube
-- Netflix
-- Spotify
-- TikTok
+| 规则 | Loon | Clash |
+|---|---|---|
+| Wikipedia | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Wikipedia.lsr) | [Clash](https://rule.kelee.one/Clash/Wikipedia.yaml) |
 
-### 4. 社交通讯组合
-- Telegram
-- Discord
-- Reddit
-- X(Twitter)
+## 学习 / 工具 / 生产力
 
-## 查找技巧
-- 如果要找具体服务，优先在上游 README 中搜索关键词。
-- 如果不知道怎么选，先用“最小常用组合”，再逐步叠加。
-- 本仓库只做导航增强，不替代上游维护。
+| 规则 | Loon | Clash |
+|---|---|---|
+| Notion | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Notion.lsr) | [Clash](https://rule.kelee.one/Clash/Notion.yaml) |
+| Dropbox | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Dropbox.lsr) | [Clash](https://rule.kelee.one/Clash/Dropbox.yaml) |
+| OneDrive | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/OneDrive.lsr) | [Clash](https://rule.kelee.one/Clash/OneDrive.yaml) |
+
+## 购物 / 出行 / 生活服务
+
+| 规则 | Loon | Clash |
+|---|---|---|
+| Amazon | [Loon](https://www.nsloon.com/openloon/import?rules=https://rule.kelee.one/Loon/Amazon.lsr) | [Clash](https://rule.kelee.one/Clash/Amazon.yaml) |
+| AliExpress | - | - |
+
+## 说明
+- 本页不是替代上游 README，而是做“常用规则的快捷索引”。
+- 完整规则目录与最新更新以上游 README 为准。
