@@ -7,29 +7,32 @@
 - Cloudflare
 - GitHub
 
-## 2. 开发 / AI 常用组合
+## 2. 开发 / AI 常用组合（精简）
 - GitHub
 - Docker
 - Claude
 - OpenAI
 - Cloudflare
-- JetBrains
 
-## 3. 社交通讯组合
+## 3. AI 聚合优先
+如果你更想少选一些规则：
+- 优先尝试 `AI.lsr` 这样的聚合规则
+- 不够再补：Claude / OpenAI / Copilot / Gemini / Anthropic / Vercel / Nvidia
+
+## 4. 社交通讯组合
 - Telegram
 - Discord
 - Twitter
 - Reddit
 - Facebook
 
-## 4. 流媒体组合
+## 5. 流媒体组合
 - YouTube
 - Netflix
 - Spotify
 - TikTok
-- Disney
 
-## 5. 国内优先组合
+## 6. 国内优先组合
 - China
 - ChinaASN
 - ChinaDNS
