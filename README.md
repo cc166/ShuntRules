@@ -6,6 +6,13 @@
 > - 数据源致谢：`https://github.com/blackmatrix7/ios_rule_script`
 > - 本 fork 新增文档：`docs/CATEGORIES.md`、`docs/QUICK-START.md`、`docs/FORK-NOTES.md`
 
+## 导航
+
+- [快速开始](docs/QUICK-START.md)
+- [归类索引](docs/CATEGORIES.md)
+- [Fork 说明](docs/FORK-NOTES.md)
+- [上游仓库](https://github.com/luestr/ShuntRules)
+
 > [!NOTE]
 > 本项目的数据源来自 [ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) 项目，在此向所有提供数据的作者们致以诚挚的感谢。
 
