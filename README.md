@@ -1,34 +1,32 @@
 <!-- minis-managed:start -->
-# ShuntRules Fork Navigation
+# ShuntRules 中文导航页
 
-> 这是一个基于上游仓库建立的个人 fork，用来补充 **导航、常用规则入口、使用说明和同步能力**。
->
-> - 上游作者：`luestr`
-> - 上游仓库：`https://github.com/luestr/ShuntRules`
-> - 数据源致谢：`https://github.com/blackmatrix7/ios_rule_script`
+> 这个 fork 的用途很简单：把常用规则入口、组合建议和使用说明整理得更好找，同时保留与上游的同步关系。
 
-## 首页入口
+- 上游作者：`luestr`
+- 上游仓库：`https://github.com/luestr/ShuntRules`
+- 数据源致谢：`https://github.com/blackmatrix7/ios_rule_script`
 
-| 入口 | 用途 |
+## 你最该先看的
+
+| 页面 | 作用 |
 |---|---|
-| [快速开始](docs/QUICK-START.md) | 先看怎么接入 Loon / Clash |
-| [归类索引（带链接）](docs/CATEGORIES.md) | 直接点常用规则链接 |
-| [常见组合](docs/COMBOS.md) | 按场景选一组规则 |
-| [文档目录](docs/INDEX.md) | 查看全部补充文档 |
-| [Fork 说明](docs/FORK-NOTES.md) | 了解本 fork 做了什么 |
+| [快速开始](docs/QUICK-START.md) | 先知道怎么接入 |
+| [归类索引（扩展版）](docs/CATEGORIES.md) | 按场景直接点规则链接 |
+| [常见组合推荐](docs/COMBOS.md) | 不想纠结时直接照着选 |
+| [文档目录](docs/INDEX.md) | 看全部补充文档 |
 | [上游 README](https://github.com/luestr/ShuntRules/blob/main/README.md) | 查看完整原始目录 |
 
-## 这个 fork 的作用
+## 最短使用路径
 
-- 把常用规则做成更容易点击和查找的入口
-- 给新手一个更短的起步路径
-- 保留上游关系，方便持续同步更新
+1. 先看 **常见组合推荐**
+2. 再去 **归类索引（扩展版）** 找对应规则
+3. 最后按 Loon / Clash 接入
 
-## 如果你只想快速开始
+## 说明
 
-1. 先看 [快速开始](docs/QUICK-START.md)
-2. 再看 [常见组合](docs/COMBOS.md)
-3. 最后按需去 [归类索引（带链接）](docs/CATEGORIES.md) 找具体规则
+- 本 fork 主要做导航和整理，不替代上游维护
+- 如果你要完整规则清单或最新变更，请回到上游 README
 
 <!-- minis-managed:end -->
 
