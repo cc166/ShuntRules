@@ -17,11 +17,17 @@
 | [文档目录](docs/INDEX.md) | 看全部补充文档 |
 | [上游 README](https://github.com/luestr/ShuntRules/blob/main/README.md) | 查看完整原始目录 |
 
+## 特别说明：AI 规则
+
+- 如果你只想少量接入 AI 相关规则，优先考虑聚合规则，比如：`AI.lsr`
+- 如果聚合规则不够，再去归类索引里补 `OpenAI / Claude / Copilot / Gemini / Anthropic / Nvidia / Vercel` 等单项规则
+
 ## 最短使用路径
 
 1. 先看 **常见组合推荐**
 2. 再去 **归类索引（扩展版）** 找对应规则
-3. 最后按 Loon / Clash 接入
+3. 如果是 AI 场景，优先尝试聚合规则
+4. 最后按 Loon / Clash 接入
 
 ## 说明
 
