@@ -1,30 +1,40 @@
 # 常见组合推荐
 
 ## 1. 最小可用组合
-- [China](CATEGORIES.md#国内直连--基础网络)
-- [ChinaASN](CATEGORIES.md#国内直连--基础网络)
-- [ChinaMedia](CATEGORIES.md#国内直连--基础网络)
-- [Cloudflare](CATEGORIES.md#平台--云服务--开发)
-- [GitHub](CATEGORIES.md#平台--云服务--开发)
-
-## 2. 开发常用组合
-- GitHub
+- China
+- ChinaASN
+- ChinaMedia
 - Cloudflare
+- GitHub
+
+## 2. 开发 / AI 常用组合
+- GitHub
 - Docker
 - Claude
 - OpenAI
+- Cloudflare
+- JetBrains
 
 ## 3. 社交通讯组合
 - Telegram
 - Discord
-- Reddit
 - Twitter
+- Reddit
+- Facebook
 
-## 4. 媒体娱乐组合
+## 4. 流媒体组合
 - YouTube
 - Netflix
 - Spotify
 - TikTok
+- Disney
 
-## 用法
-先选一组，再到 `CATEGORIES.md` 里直接点击对应规则链接。
+## 5. 国内优先组合
+- China
+- ChinaASN
+- ChinaDNS
+- ChinaIPs
+- ChinaMedia
+
+## 提示
+先看 `docs/CATEGORIES.md` 的带链接索引，再决定具体接入哪些规则。
