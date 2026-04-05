@@ -1,17 +1,36 @@
-> [!IMPORTANT]
-> Fork 说明：本仓库基于 [luestr/ShuntRules](https://github.com/luestr/ShuntRules) 建立，仅补充归类索引与使用说明，原始规则内容与出处以上游为准。
+<!-- minis-managed:start -->
+# ShuntRules Fork Guide
+
+> 本仓库为 [luestr/ShuntRules](https://github.com/luestr/ShuntRules) 的 fork，保留上游作者与出处；本 fork 主要补充导航、归类和快速使用说明。
 >
 > - 上游作者：`luestr`
 > - 上游仓库：`https://github.com/luestr/ShuntRules`
 > - 数据源致谢：`https://github.com/blackmatrix7/ios_rule_script`
-> - 本 fork 新增文档：`docs/CATEGORIES.md`、`docs/QUICK-START.md`、`docs/FORK-NOTES.md`
 
-## 导航
+## 快速导航
 
-- [快速开始](docs/QUICK-START.md)
-- [归类索引](docs/CATEGORIES.md)
-- [Fork 说明](docs/FORK-NOTES.md)
-- [上游仓库](https://github.com/luestr/ShuntRules)
+| 入口 | 说明 |
+|---|---|
+| [快速开始](docs/QUICK-START.md) | 先看怎么接入 Loon / Clash |
+| [归类索引](docs/CATEGORIES.md) | 按用途快速找规则 |
+| [文档目录](docs/INDEX.md) | 查看 docs 总入口 |
+| [Fork 说明](docs/FORK-NOTES.md) | 本 fork 做了什么 |
+| [上游仓库](https://github.com/luestr/ShuntRules) | 查看原始规则与更新 |
+
+## 常用场景
+
+- **基础直连**：China / ChinaASN / ChinaMedia
+- **开发与 AI**：GitHub / Cloudflare / Claude / OpenAI
+- **流媒体**：YouTube / Netflix / Spotify
+- **社交通讯**：Telegram / Discord / X(Twitter)
+
+## 使用建议
+
+1. 先从少量基础规则开始。
+2. 再按实际使用场景补充分类规则。
+3. 定期同步上游更新，避免规则过旧。
+
+<!-- minis-managed:end -->
 
 > [!NOTE]
 > 本项目的数据源来自 [ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) 项目，在此向所有提供数据的作者们致以诚挚的感谢。
