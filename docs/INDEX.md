@@ -3,6 +3,7 @@
 ## 快速入口
 - [快速开始](QUICK-START.md)
 - [归类索引（增强版）](CATEGORIES.md)
+- [常见组合推荐](COMBOS.md)
 - [Fork 说明](FORK-NOTES.md)
 
 ## 你可以先看哪一个
