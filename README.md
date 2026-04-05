@@ -1,41 +1,34 @@
 <!-- minis-managed:start -->
-# ShuntRules Fork Guide
+# ShuntRules Fork Navigation
 
-> 本仓库为 [luestr/ShuntRules](https://github.com/luestr/ShuntRules) 的 fork，保留上游作者与出处；本 fork 主要补充导航、归类和快速使用说明。
+> 这是一个基于上游仓库建立的个人 fork，用来补充 **导航、常用规则入口、使用说明和同步能力**。
 >
 > - 上游作者：`luestr`
 > - 上游仓库：`https://github.com/luestr/ShuntRules`
 > - 数据源致谢：`https://github.com/blackmatrix7/ios_rule_script`
 
-## 快速导航
+## 首页入口
 
-| 入口 | 说明 |
+| 入口 | 用途 |
 |---|---|
 | [快速开始](docs/QUICK-START.md) | 先看怎么接入 Loon / Clash |
-| [归类索引](docs/CATEGORIES.md) | 按用途快速找规则 |
-| [常见组合](docs/COMBOS.md) | 直接参考推荐搭配 |
-| [文档目录](docs/INDEX.md) | 查看 docs 总入口 |
-| [Fork 说明](docs/FORK-NOTES.md) | 本 fork 做了什么 |
-| [上游仓库](https://github.com/luestr/ShuntRules) | 查看原始规则与更新 |
+| [归类索引（带链接）](docs/CATEGORIES.md) | 直接点常用规则链接 |
+| [常见组合](docs/COMBOS.md) | 按场景选一组规则 |
+| [文档目录](docs/INDEX.md) | 查看全部补充文档 |
+| [Fork 说明](docs/FORK-NOTES.md) | 了解本 fork 做了什么 |
+| [上游 README](https://github.com/luestr/ShuntRules/blob/main/README.md) | 查看完整原始目录 |
 
-## 中文简明说明
+## 这个 fork 的作用
 
-- 这是一个基于上游 `luestr/ShuntRules` 的 fork。
-- 本 fork 主要做导航增强、归类整理、组合建议与同步说明。
-- 原始规则内容与更新以上游仓库为准。
+- 把常用规则做成更容易点击和查找的入口
+- 给新手一个更短的起步路径
+- 保留上游关系，方便持续同步更新
 
-## 常用场景
+## 如果你只想快速开始
 
-- **基础直连**：China / ChinaASN / ChinaMedia
-- **开发与 AI**：GitHub / Cloudflare / Claude / OpenAI
-- **流媒体**：YouTube / Netflix / Spotify
-- **社交通讯**：Telegram / Discord / X(Twitter)
-
-## 使用建议
-
-1. 先从少量基础规则开始。
-2. 再按实际使用场景补充分类规则。
-3. 定期同步上游更新，避免规则过旧。
+1. 先看 [快速开始](docs/QUICK-START.md)
+2. 再看 [常见组合](docs/COMBOS.md)
+3. 最后按需去 [归类索引（带链接）](docs/CATEGORIES.md) 找具体规则
 
 <!-- minis-managed:end -->
 
