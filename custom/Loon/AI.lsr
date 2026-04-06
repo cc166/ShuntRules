@@ -1,1 +1,10 @@
-DOMAIN-SUFFIX,openai.com\nDOMAIN-SUFFIX,chatgpt.com\nDOMAIN-SUFFIX,claude.ai\nDOMAIN-SUFFIX,anthropic.com\nDOMAIN-SUFFIX,copilot.microsoft.com\nDOMAIN-SUFFIX,githubcopilot.com\nDOMAIN-SUFFIX,gemini.google.com\nDOMAIN-SUFFIX,makersuite.google.com\nDOMAIN-SUFFIX,vercel.com\nDOMAIN-SUFFIX,nvidia.com\n
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,vercel.com
+DOMAIN-SUFFIX,nvidia.com

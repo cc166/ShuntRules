@@ -1,0 +1,11 @@
+payload:
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-SUFFIX,nflxvideo.net
+  - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,disneyplus.com

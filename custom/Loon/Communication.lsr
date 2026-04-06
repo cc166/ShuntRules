@@ -1,1 +1,10 @@
-DOMAIN-SUFFIX,telegram.org\nDOMAIN-SUFFIX,t.me\nDOMAIN-SUFFIX,discord.com\nDOMAIN-SUFFIX,discord.gg\nDOMAIN-SUFFIX,twitter.com\nDOMAIN-SUFFIX,x.com\nDOMAIN-SUFFIX,reddit.com\nDOMAIN-SUFFIX,facebook.com\nDOMAIN-SUFFIX,instagram.com\nDOMAIN-SUFFIX,line.me\n
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,line.me
