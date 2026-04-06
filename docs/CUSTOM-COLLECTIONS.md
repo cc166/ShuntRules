@@ -32,3 +32,9 @@
 2. 想细分到单项，再去 `docs/CATEGORIES.md`
 3. 合集文件由 workflow 自动刷新
 4. 这批合集目前是你的自定义入口，不等于完整复刻上游全部规则目录
+
+## Apple / Google / Microsoft 合集
+- Loon：[https://www.nsloon.com/openloon/import?rules=https://raw.githubusercontent.com/cc166/ShuntRules/main/custom/Loon/Platform.lsr](https://www.nsloon.com/openloon/import?rules=https://raw.githubusercontent.com/cc166/ShuntRules/main/custom/Loon/Platform.lsr)
+- Clash：[https://raw.githubusercontent.com/cc166/ShuntRules/main/custom/Clash/Platform.yaml](https://raw.githubusercontent.com/cc166/ShuntRules/main/custom/Clash/Platform.yaml)
+- 包含：Apple、iCloud、Google、Google APIs、Microsoft、Live、Office、Windows
+
