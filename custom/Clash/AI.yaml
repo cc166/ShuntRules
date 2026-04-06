@@ -1,0 +1,1 @@
+payload:\n  - DOMAIN-SUFFIX,openai.com\n  - DOMAIN-SUFFIX,chatgpt.com\n  - DOMAIN-SUFFIX,claude.ai\n  - DOMAIN-SUFFIX,anthropic.com\n  - DOMAIN-SUFFIX,copilot.microsoft.com\n  - DOMAIN-SUFFIX,githubcopilot.com\n  - DOMAIN-SUFFIX,gemini.google.com\n  - DOMAIN-SUFFIX,makersuite.google.com\n  - DOMAIN-SUFFIX,vercel.com\n  - DOMAIN-SUFFIX,nvidia.com\n
