@@ -60,10 +60,5 @@ root = Path('.')
 (root/'custom'/'Clash').mkdir(parents=True, exist_ok=True)
 
 for name, data in collections.items():
-    (root/'custom'/'Loon'/f'{name}.lsr').write_text('
-'.join(data['loon'])+'
-', encoding='utf-8')
-    (root/'custom'/'Clash'/f'{name}.yaml').write_text('payload:
-' + '
-'.join(f'  - {x}' for x in data['clash']) + '
-', encoding='utf-8')
+    (root/'custom'/'Loon'/f'{name}.lsr').write_text('\\n'.join(data['loon'])+'\\n', encoding='utf-8')
+    (root/'custom'/'Clash'/f'{name}.yaml').write_text('payload:\\n' + '\\n'.join(f'  - {x}' for x in data['clash']) + '\\n', encoding='utf-8')
