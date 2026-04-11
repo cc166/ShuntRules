@@ -1,0 +1,6 @@
+# 引用链接: https://rule.kelee.one/Loon/Claude.lsr
+# UpdateTime：2025-09-18 02:34:13
+# RuleCount：3
+DOMAIN, cdn.usefathom.com
+DOMAIN-SUFFIX, claude.ai
+DOMAIN-SUFFIX, anthropic.com
