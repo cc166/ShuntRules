@@ -28,5 +28,5 @@ jobs:
             echo "No changes"
             exit 0
           fi
-          git commit -m "sync: refresh iKeLee clash plus rules"
+          git commit -m "sync: refresh prioritized iKeLee clash plus rules"
           git push
