@@ -3,7 +3,7 @@ name: Sync upstream
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 3 * * 0'
+    - cron: '19 3 * * *'
 
 permissions:
   contents: write
@@ -41,7 +41,7 @@ jobs:
       - name: Merge upstream
         if: steps.diff.outputs.changed == 'true'
         run: |
-          git merge upstream/main --no-edit -X ours
+          git merge upstream/main --no-edit -X theirs || true
 
       - name: Push changes
         if: steps.diff.outputs.changed == 'true'
