@@ -2,17 +2,23 @@ import requests
 from pathlib import Path
 
 TARGETS = {
+    'Telegram.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/Telegram.yaml',
+    'GitHub.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/GitHub.yaml',
+    'YouTube.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/YouTube.yaml',
+    'Google.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/Google.yaml',
+    'Apple.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/Apple.yaml',
+    'Microsoft.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/Microsoft.yaml',
+    'Steam.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/Steam.yaml',
+    'Twitter.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/Twitter.yaml',
+    'Facebook.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/Facebook.yaml',
+    'Instagram.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/Instagram.yaml',
     'Reddit.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/Reddit.yaml',
-    'Emby.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/Emby.yaml',
-    'AppleTV.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/AppleTV.yaml',
-    'HBO.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/HBO.yaml',
-    'PrimeVideo.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/PrimeVideo.yaml',
     'Discord.yaml': 'https://git.repcz.link/rule.kelee.one/Clash/Discord.yaml',
 }
 OUT = Path('mirror/ClashPlus')
 OUT.mkdir(parents=True, exist_ok=True)
 headers = {'User-Agent':'Mozilla/5.0'}
-report=['# Clash 扩展成品规则镜像结果','']
+report=['# Clash 扩展成品规则镜像结果（优先级重整）','']
 for name, url in TARGETS.items():
     r=requests.get(url, headers=headers, timeout=60)
     r.raise_for_status()
