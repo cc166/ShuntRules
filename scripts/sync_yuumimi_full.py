@@ -4,19 +4,8 @@ from pathlib import Path
 SRC = Path('/tmp/yuumimi_rules')
 DST = Path('.')
 MAP = {
-    'Telegram': ['telegram'],
     'SocialMedia': ['twitter','instagram','facebook','reddit'],
-    'GitHub': ['github'],
-    'YouTube': ['youtube'],
-    'Netflix': ['netflix'],
     'ForeignMedia': ['disney','spotify','bahamut','category-entertainment@!cn'],
-    'Google': ['google'],
-    'Apple': ['apple'],
-    'Microsoft': ['microsoft'],
-    'Steam': ['steam'],
-    'Speedtest': ['speedtest'],
-    'TikTok': ['tiktok'],
-    'AI': ['openai','anthropic'],
 }
 
 (DST/'custom'/'Loon').mkdir(parents=True, exist_ok=True)
