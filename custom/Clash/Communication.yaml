@@ -1,8 +1,0 @@
-payload:
-  - DOMAIN-SUFFIX,telegram.org
-  - DOMAIN-SUFFIX,t.me
-  - DOMAIN-SUFFIX,discord.com
-  - DOMAIN-SUFFIX,discord.gg
-  - DOMAIN-SUFFIX,line.me
-  - DOMAIN-SUFFIX,whatsapp.com
-  - DOMAIN-SUFFIX,signal.org

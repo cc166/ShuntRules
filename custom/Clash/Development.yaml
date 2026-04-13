@@ -1,5 +1,0 @@
-payload:
-  - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,docker.com
-  - DOMAIN-SUFFIX,docker.io
-  - DOMAIN-SUFFIX,jetbrains.com
