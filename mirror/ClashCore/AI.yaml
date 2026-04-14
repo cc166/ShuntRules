@@ -1,5 +1,5 @@
-# UpdateTime：2026-03-20 15:16:46
-# RuleCount：84
+# UpdateTime：2026-04-14 00:06:52
+# RuleCount：85
 payload:
   - DOMAIN,models.inference.ai.azure.com
   - DOMAIN,openai.com.cdn.cloudflare.net
@@ -81,6 +81,7 @@ payload:
   - DOMAIN-SUFFIX,poe.com
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN-SUFFIX,voyageai.com
+  - DOMAIN-SUFFIX,kiro.dev
   - DOMAIN-SUFFIX,antigravity-unleash.goog
   - DOMAIN-SUFFIX,antigravity.google
   - IP-CIDR,160.79.104.0/23,no-resolve
