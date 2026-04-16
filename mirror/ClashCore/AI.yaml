@@ -1,5 +1,5 @@
-# UpdateTime：2026-04-14 00:06:52
-# RuleCount：85
+# UpdateTime：2026-04-15 22:19:41
+# RuleCount：87
 payload:
   - DOMAIN,models.inference.ai.azure.com
   - DOMAIN,openai.com.cdn.cloudflare.net
@@ -67,6 +67,7 @@ payload:
   - DOMAIN-SUFFIX,tokenflux.ai
   - DOMAIN-SUFFIX,trae.ai
   - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,z.ai
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,chatgpt.com
@@ -84,5 +85,6 @@ payload:
   - DOMAIN-SUFFIX,kiro.dev
   - DOMAIN-SUFFIX,antigravity-unleash.goog
   - DOMAIN-SUFFIX,antigravity.google
+  - DOMAIN-SUFFIX,minimax.io
   - IP-CIDR,160.79.104.0/23,no-resolve
   - IP-CIDR6,2607:6bc0::/48,no-resolve
