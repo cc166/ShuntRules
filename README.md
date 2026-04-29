@@ -1,6 +1,6 @@
-# ShuntRules - 综合多源规则镜像
+# ShuntRules
 
-自动同步 dler-io/Rules 和 Code-Dramatist/Rule_Actions 的规则镜像仓库。
+个人 Surge 和 Clash 规则仓库。
 
 ## 📊 规则列表
 
@@ -55,9 +55,30 @@
 | Hulu | Hulu | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Hulu.list) |
 | IQ | iQIYI 国际版 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/IQ.list) |
 | IQIYI | 爱奇艺 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/IQIYI.list) |
-| ... | ... | ... |
-
-（完整 44 项 Media 规则见仓库）
+| JOOX | JOOX | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/JOOX.list) |
+| Japonx | Japonx | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Japonx.list) |
+| KKBOX | KKBOX | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/KKBOX.list) |
+| KKTV | KKTV | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/KKTV.list) |
+| Letv | 乐视 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Letv.list) |
+| Line TV | Line TV | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Line%20TV.list) |
+| MOO | MOO | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/MOO.list) |
+| Max | Max | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Max.list) |
+| Netease Music | 网易云音乐 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Netease%20Music.list) |
+| Netflix | Netflix | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Netflix.list) |
+| Niconico | Niconico | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Niconico.list) |
+| PBS | PBS | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/PBS.list) |
+| Pandora | Pandora | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Pandora.list) |
+| Pornhub | Pornhub | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Pornhub.list) |
+| Soundcloud | Soundcloud | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Soundcloud.list) |
+| Spotify | Spotify | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Spotify.list) |
+| Tencent Video | 腾讯视频 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Tencent%20Video.list) |
+| ViuTV | ViuTV | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/ViuTV.list) |
+| WeTV | WeTV | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/WeTV.list) |
+| YouTube Music | YouTube Music | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/YouTube%20Music.list) |
+| YouTube | YouTube | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/YouTube.list) |
+| Youku | 优酷 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Youku.list) |
+| encoreTVB | encoreTVB | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/encoreTVB.list) |
+| myTV SUPER | myTV SUPER | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/myTV%20SUPER.list) |
 
 ### Clash 规则（15 项）
 
@@ -87,14 +108,6 @@
 | Privacy | 隐私保护 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/reject/Privacy.list) |
 | Privacy_Domain | 隐私保护（仅域名） | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/reject/Privacy_Domain.list) |
 | Reject_Rule | 拦截规则（完整） | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/reject/Reject_Rule.rule) |
-
-## 🔄 同步策略
-
-- **同步频率**：每天两次（UTC 03:00 和 03:30）
-- **规则来源**：
-  1. [dler-io/Rules](https://github.com/dler-io/Rules) - Surge Provider 规则
-  2. [Code-Dramatist/Rule_Actions](https://github.com/Code-Dramatist/Rule_Actions) - Clash 规则
-- **自动化**：GitHub Actions 自动同步，无需手动维护
 
 ## 📝 使用方法
 
@@ -132,14 +145,9 @@ rule-providers:
 
 ## 🔗 相关仓库
 
-- **主用**：[cc166/Profiles](https://github.com/cc166/Profiles) - iKeLee 规则镜像
-- **备用**：[cc166/ShuntRules](https://github.com/cc166/ShuntRules) - 综合多源规则（本仓库）
-- **上游**：
-  - [dler-io/Rules](https://github.com/dler-io/Rules) - Surge Provider 规则
-  - [Code-Dramatist/Rule_Actions](https://github.com/Code-Dramatist/Rule_Actions) - Clash 规则
+- **主用**：[cc166/Profiles](https://github.com/cc166/Profiles)
+- **备用**：[cc166/ShuntRules](https://github.com/cc166/ShuntRules)
 
-## 📊 同步报告
+## 致谢
 
-查看最近一次同步结果：
-- [dler-io 同步报告](_sync_report_dler_io.json)
-- [Code-Dramatist 同步报告](_sync_report_code_dramatist.json)
+感谢 [dler-io](https://github.com/dler-io/Rules) 和 [Code-Dramatist](https://github.com/Code-Dramatist/Rule_Actions) 提供优质规则。
