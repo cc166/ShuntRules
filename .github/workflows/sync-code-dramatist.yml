@@ -1,0 +1,36 @@
+name: Sync Code-Dramatist Rules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3 * * *'  # 每天 UTC 03:30
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Sync Code-Dramatist/Rule_Actions
+        run: python3 sync_code_dramatist.py
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add clash/ _sync_report_code_dramatist.json
+          if git diff --cached --quiet; then
+            echo "No changes from Code-Dramatist/Rule_Actions"
+            exit 0
+          fi
+          git commit -m "sync: update Code-Dramatist/Rule_Actions ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          git push

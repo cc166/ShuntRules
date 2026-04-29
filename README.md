@@ -1,21 +1,145 @@
-# ShuntRules 中文导航页
+# ShuntRules - 综合多源规则镜像
 
-> 这个 fork 主要做三件事：保留上游关系、补一个更短的中文导航、给常用规则一个更好找的入口。
+自动同步 dler-io/Rules 和 Code-Dramatist/Rule_Actions 的规则镜像仓库。
 
-- 上游作者：`luestr`
-- 上游仓库：`https://github.com/luestr/ShuntRules`
-- 数据源致谢：`https://github.com/blackmatrix7/ios_rule_script`
+## 📊 规则列表
 
-## 入口
+### Surge Provider 规则（66 项）
 
-| 页面 | 作用 |
-|---|---|
-| [快速开始](docs/QUICK-START.md) | 先知道怎么接入 |
-| [归类索引（扩展版）](docs/CATEGORIES.md) | 按场景直接点规则链接 |
-| [常见组合推荐](docs/COMBOS.md) | 不想纠结时直接照着选 |
-| [文档目录](docs/INDEX.md) | 看全部补充文档 |
-| [上游 README](https://github.com/luestr/ShuntRules/blob/main/README.md) | 查看完整原始目录 |
+#### 基础规则（22 项）
+| 规则名称 | 用途 | Raw 链接 |
+|---------|------|---------|
+| AI Suite | AI 服务聚合 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/AI%20Suite.list) |
+| AdBlock | 广告拦截 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/AdBlock.list) |
+| Apple | Apple 服务 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Apple.list) |
+| Common port | 常用端口 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Common%20port.list) |
+| Crypto | 加密货币 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Crypto.list) |
+| Discord | Discord | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Discord.list) |
+| Domestic IPs | 国内 IP | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Domestic%20IPs.list) |
+| Domestic | 国内域名 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Domestic.list) |
+| Douyin | 抖音 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Douyin.list) |
+| Google FCM | Google FCM 推送 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Google%20FCM.list) |
+| HTTPDNS | HTTPDNS | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/HTTPDNS.list) |
+| LAN | 局域网 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/LAN.list) |
+| Microsoft | Microsoft 服务 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Microsoft.list) |
+| PayPal | PayPal | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/PayPal.list) |
+| Proxy | 代理规则 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Proxy.list) |
+| Scholar | 学术网站 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Scholar.list) |
+| Special | 特殊规则 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Special.list) |
+| Speedtest | Speedtest 测速 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Speedtest.list) |
+| Steam | Steam 游戏平台 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Steam.list) |
+| Telegram | Telegram | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Telegram.list) |
+| TikTok | TikTok | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/TikTok.list) |
+| miHoYo | 米哈游 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/miHoYo.list) |
 
-## 说明
-- 本 fork 主要做导航和整理，不替代上游维护
-- 想看完整规则清单和最新变化，请直接看上游 README
+#### Media 规则（44 项）
+| 规则名称 | 用途 | Raw 链接 |
+|---------|------|---------|
+| ABC | ABC | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/ABC.list) |
+| Abema TV | Abema TV | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Abema%20TV.list) |
+| Amazon | Amazon Prime Video | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Amazon.list) |
+| Apple Music | Apple Music | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Apple%20Music.list) |
+| Apple News | Apple News | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Apple%20News.list) |
+| Apple TV | Apple TV+ | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Apple%20TV.list) |
+| BBC iPlayer | BBC iPlayer | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/BBC%20iPlayer.list) |
+| Bahamut | 巴哈姆特动画 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Bahamut.list) |
+| Bilibili | 哔哩哔哩 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Bilibili.list) |
+| DAZN | DAZN | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/DAZN.list) |
+| DMM | DMM | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/DMM.list) |
+| Discovery Plus | Discovery+ | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Discovery%20Plus.list) |
+| Disney Plus | Disney+ | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Disney%20Plus.list) |
+| F1 TV | F1 TV | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/F1%20TV.list) |
+| Fox Now | Fox Now | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Fox%20Now.list) |
+| Fox+ | Fox+ | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Fox%2B.list) |
+| Hulu Japan | Hulu Japan | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Hulu%20Japan.list) |
+| Hulu | Hulu | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Hulu.list) |
+| IQ | iQIYI 国际版 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/IQ.list) |
+| IQIYI | 爱奇艺 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/IQIYI.list) |
+| ... | ... | ... |
+
+（完整 44 项 Media 规则见仓库）
+
+### Clash 规则（15 项）
+
+#### Direct 规则（3 项）
+| 规则名称 | 用途 | Raw 链接 |
+|---------|------|---------|
+| ChinaMax | 中国大陆域名（完整） | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/direct/ChinaMax.list) |
+| ChinaMax_Domain | 中国大陆域名（仅域名） | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/direct/ChinaMax_Domain.list) |
+| Direct_Rule | 直连规则（完整） | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/direct/Direct_Rule.rule) |
+
+#### Proxy 规则（7 项）
+| 规则名称 | 用途 | Raw 链接 |
+|---------|------|---------|
+| Global | 全球代理域名 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/proxy/Global.list) |
+| Global_Domain | 全球代理域名（仅域名） | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/proxy/Global_Domain.list) |
+| GlobalMedia | 全球流媒体 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/proxy/GlobalMedia.list) |
+| GlobalMedia_Domain | 全球流媒体（仅域名） | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/proxy/GlobalMedia_Domain.list) |
+| Proxy | 代理规则 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/proxy/Proxy.list) |
+| Proxy_Domain | 代理规则（仅域名） | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/proxy/Proxy_Domain.list) |
+| Proxy_Rule | 代理规则（完整） | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/proxy/Proxy_Rule.rule) |
+
+#### Reject 规则（5 项）
+| 规则名称 | 用途 | Raw 链接 |
+|---------|------|---------|
+| Advertising | 广告拦截 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/reject/Advertising.list) |
+| Advertising_Domain | 广告拦截（仅域名） | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/reject/Advertising_Domain.list) |
+| Privacy | 隐私保护 | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/reject/Privacy.list) |
+| Privacy_Domain | 隐私保护（仅域名） | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/reject/Privacy_Domain.list) |
+| Reject_Rule | 拦截规则（完整） | [链接](https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/reject/Reject_Rule.rule) |
+
+## 🔄 同步策略
+
+- **同步频率**：每天两次（UTC 03:00 和 03:30）
+- **规则来源**：
+  1. [dler-io/Rules](https://github.com/dler-io/Rules) - Surge Provider 规则
+  2. [Code-Dramatist/Rule_Actions](https://github.com/Code-Dramatist/Rule_Actions) - Clash 规则
+- **自动化**：GitHub Actions 自动同步，无需手动维护
+
+## 📝 使用方法
+
+### Surge
+```ini
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/provider/Netflix.list,Netflix
+RULE-SET,https://raw.githubusercontent.com/cc166/ShuntRules/main/surge/media/Netflix.list,Netflix
+```
+
+### Clash
+```yaml
+rule-providers:
+  Direct:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/direct/Direct_Rule.rule
+    path: ./ruleset/Direct.rule
+    interval: 86400
+  
+  Proxy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/proxy/Proxy_Rule.rule
+    path: ./ruleset/Proxy.rule
+    interval: 86400
+  
+  Reject:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/cc166/ShuntRules/main/clash/reject/Reject_Rule.rule
+    path: ./ruleset/Reject.rule
+    interval: 86400
+```
+
+## 🔗 相关仓库
+
+- **主用**：[cc166/Profiles](https://github.com/cc166/Profiles) - iKeLee 规则镜像
+- **备用**：[cc166/ShuntRules](https://github.com/cc166/ShuntRules) - 综合多源规则（本仓库）
+- **上游**：
+  - [dler-io/Rules](https://github.com/dler-io/Rules) - Surge Provider 规则
+  - [Code-Dramatist/Rule_Actions](https://github.com/Code-Dramatist/Rule_Actions) - Clash 规则
+
+## 📊 同步报告
+
+查看最近一次同步结果：
+- [dler-io 同步报告](_sync_report_dler_io.json)
+- [Code-Dramatist 同步报告](_sync_report_code_dramatist.json)
