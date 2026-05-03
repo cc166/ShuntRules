@@ -1,6 +1,6 @@
 # ShuntRules
 
-个人 Surge 和 Clash 规则仓库。
+Surge 和 Clash 规则集合。
 
 ## 📊 规则列表
 

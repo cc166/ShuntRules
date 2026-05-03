@@ -2,36 +2,21 @@
   "meta": {
     "source": "Code-Dramatist/Rule_Actions",
     "url": "https://github.com/Code-Dramatist/Rule_Actions.git",
-    "timestamp": "2026-05-02 05:53:51 UTC"
+    "status": "synced-verified",
+    "note": "files are published only after source validation and existing-file baseline checks pass"
   },
-  "direct": {
-    "ok": [
-      "ChinaMax.list",
-      "Direct_Rule.rule",
-      "ChinaMax_Domain.list"
-    ],
-    "failed": []
-  },
-  "proxy": {
-    "ok": [
-      "GlobalMedia.list",
-      "GlobalMedia_Domain.list",
-      "Proxy.list",
-      "Global.list",
-      "Proxy_Rule.rule",
-      "Proxy_Domain.list",
-      "Global_Domain.list"
-    ],
-    "failed": []
-  },
-  "reject": {
-    "ok": [
-      "Reject_Rule.rule",
-      "Advertising.list",
-      "Privacy.list",
-      "Privacy_Domain.list",
-      "Advertising_Domain.list"
-    ],
-    "failed": []
+  "categories": {
+    "direct": {
+      "ok_count": 3,
+      "failed_count": 0
+    },
+    "proxy": {
+      "ok_count": 7,
+      "failed_count": 0
+    },
+    "reject": {
+      "ok_count": 5,
+      "failed_count": 0
+    }
   }
 }
